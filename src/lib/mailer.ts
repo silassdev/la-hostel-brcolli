@@ -44,7 +44,7 @@ export async function sendPaymentReceipt(opts: {
   const nairaAmount = amount / 100;
 
   try {
-    // Create PDF
+    // Create PDF here
     const pdfDoc = await PDFDocument.create();
     pdfDoc.registerFontkit(fontkit);
 
