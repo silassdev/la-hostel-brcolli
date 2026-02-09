@@ -5,7 +5,6 @@ declare global {
   var prisma: PrismaClient
 }
 
-// Reuse or create the single PrismaClient instance
 export const prisma =
   global.prisma ||
   new PrismaClient({
